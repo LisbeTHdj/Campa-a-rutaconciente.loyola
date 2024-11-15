@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Personalización del menú de navegación */
+        .navbar {
+            background-color: #BDBDBD !important; /* Color gris del logo */
+        }
+    
+        .navbar .navbar-brand {
+            font-weight: bold;
+            color: rgb(255, 255, 255); /* Color blanco para el texto */
+            flex-grow: 1; /* Asegura que el logo no se solape con los enlaces */
+        }
+    
+        .navbar .navbar-nav .nav-item .nav-link {
+            color: white !important; /* Color blanco para los enlaces del menú */
+            font-size: 1.1rem; /* Tamaño de fuente de los enlaces */
+        }
+    
+        .navbar .navbar-nav .nav-item .nav-link:hover {
+            color: #d1cfe2 !important;
+            text-decoration: underline;
+        }
+    
+        .navbar .navbar-toggler-icon {
+            background-color: white; /* Color del icono del menú en dispositivos pequeños */
+        }
+    
+        /* Posicionamiento del logo en la barra de navegación */
+        .navbar-logo {
+            height: 40px; /* Ajusta el tamaño del logo */
+            position: absolute;
+            top: 10px; /* Ajusta la distancia desde la parte superior */
+            left: 10px; /* Ajusta la distancia desde la parte izquierda */
+        }
+    
+        /* Centrado del texto en el contenedor */
+        .container-center {
+            text-align: center; /* Centra el texto dentro del contenedor */
+        }
+    
+        /* Alineación en dispositivos grandes */
+        @media (min-width: 992px) {
+            .navbar .navbar-nav.ml-auto {
+                margin-left: auto; /* Alinea los elementos del menú a la derecha */
+            }
+        }
+    
+        /* Cambios en el menú para pantallas pequeñas */
+        @media (max-width: 991px) {
+            .navbar-collapse {
+                background-color: #BDBDBD; /* Color gris para el menú desplegable en pantallas pequeñas */
+            }
+    
+            .navbar-nav .nav-item .nav-link {
+                color: white !important; /* Color blanco en los enlaces */
+            }
+        }
+
+        /* Estilo para la barra de pie de página */
+        .footer {
+            background-color: #757575; /* Gris más oscuro */
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Logo en la esquina -->
+        <img src="Imagenes/logo.jpg" alt="Logo" class="navbar-logo">
+
+        <a class="navbar-brand" href="index.html"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobrenosotros.html">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="informacion.html">Informacion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container mt-5 container-center">
+        <h1>Contacto de Rutaconsciente</h1>
+  
+        <!-- Agregar imagen de Instagram y número de teléfono -->
+        <div class="mt-4">
+            <!-- Aumentando el tamaño de la imagen -->
+            <img src="Imagenes/instagram.jpg" alt="Instagram" class="img-fluid mb-3" style="max-width: 400px;">
+            <p><strong>Teléfono: +1 (849) 280-7441</strong></p>
+        </div>
+    </div>
+
+    <!-- Barra de pie de página -->
+    <footer class="footer">
+        <div class="container-center">
+            <p>© Derechos de autor - Rutaconsciente</p>
+        </div>
+    </footer>
+
+    <!-- Archivos JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Personalización del menú de navegación */
+        .navbar {
+            background-color: #BDBDBD !important; /* Color gris del logo */
+        }
+    
+        .navbar .navbar-brand {
+            font-weight: bold;
+            color: rgb(255, 255, 255); /* Color blanco para el texto */
+            flex-grow: 1; /* Asegura que el logo no se solape con los enlaces */
+        }
+    
+        .navbar .navbar-nav .nav-item .nav-link {
+            color: white !important; /* Color blanco para los enlaces del menú */
+            font-size: 1.1rem; /* Tamaño de fuente de los enlaces */
+        }
+    
+        .navbar .navbar-nav .nav-item .nav-link:hover {
+            color: #d1cfe2 !important;
+            text-decoration: underline;
+        }
+    
+        .navbar .navbar-toggler-icon {
+            background-color: white; /* Color del icono del menú en dispositivos pequeños */
+        }
+    
+        /* Posicionamiento del logo en la barra de navegación */
+        .navbar-logo {
+            height: 40px; /* Ajusta el tamaño del logo */
+            position: absolute;
+            top: 10px; /* Ajusta la distancia desde la parte superior */
+            left: 10px; /* Ajusta la distancia desde la parte izquierda */
+        }
+    
+        /* Centrado del texto en el contenedor */
+        .container-center {
+            text-align: center; /* Centra el texto dentro del contenedor */
+        }
+
+          /* Estilo para la barra de pie de página */
+          .footer {
+            background-color: #757575;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+            width: 100%;
+            margin-top: 40px; /* Asegura que haya un espacio entre el contenido y el pie de página */
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        /* Estilo para el texto adicional */
+        .additional-text {
+            text-align: left;
+            margin-left: 20px; /* Espacio desde la izquierda */
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        /* Contenedor de logo y texto alineados horizontalmente */
+        .about-us-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .about-us-container img {
+            height: 400px; /* Ajusta el tamaño del logo de la derecha */
+            max-width: 200%;
+        }
+        .about-us-container .text {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Logo en la esquina -->
+        <img src="Imagenes/logo.jpg" alt="Logo" class="navbar-logo">
+
+        <a class="navbar-brand" href="index.html"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobrenosotros.html">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="informacion.html">Informacion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+   <!-- Contenido principal -->
+<div class="container mt-5 container-center">
+    <h1>Sobre Nosotros</h1>
+    <div class="about-us-container">
+        <div class="text">
+            <p class="additional-text">Somos estudiantes de 5to grado de la carrera de Electromecánica de Vehículos.
+             <br>Trabajamos en conjunto con una pasión inquebrantable para concientizar sobre la importancia de vivir en un país seguro, donde cada uno de nosotros pueda transitar sin miedo y con confianza.
+              <br> Queremos motivarte a cuidarte, a cuidar de los demás y a ser partícipe activo de una cultura vial responsable. 
+              <br>En esta página, te proporcionaremos las herramientas, el conocimiento y el apoyo necesarios para convertirte en un conductor consciente y comprometido con la seguridad de todos. ¡Unamos fuerzas para crear un entorno vial más seguro y amigable para todos!</p>
+        </div>
+        <img src="Imagenes/logoloyola.png" alt="Logo Loyola" class="img-fluid">
+    </div>
+
+    <!-- Subtema Integrantes -->
+    <h2>Integrantes</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="Imagenes/integrante4.jpg" alt="Integrante 1" class="img-fluid">
+        </div>
+        <div class="col-md-4">
+            <img src="Imagenes/integrante1.jpg" alt="Integrante 2" class="img-fluid">
+        </div>
+        <div class="col-md-4">
+            <img src="Imagenes/integrante2.jpg" alt="Integrante 3" class="img-fluid">
+        </div>
+    </div>
+    <p class="additional-text">
+        
+       <h2>¿Quiénes Somos? </h2> 
+        En Rutaconsciente, somos un grupo apasionado de profesionales dedicados a la educación y seguridad vial. Nuestro equipo está compuesto por expertos en tránsito, ingenieros de transporte, educadores y defensores de la seguridad vial, unidos por un solo objetivo: crear un entorno vial más seguro para todos.
+        
+        <h2>Nuestra Misión</h2>
+        Nuestra misión es concientizar, educar y capacitar a conductores de todas las edades sobre la importancia de la seguridad vial. Creemos que a través de la educación y la formación continua, podemos reducir significativamente los accidentes de tráfico y salvar vidas.
+        
+        <h2>Nuestra Visión</h2>
+        Visualizamos un futuro donde cada persona pueda transitar de manera segura y responsable, contribuyendo a un sistema de transporte más eficiente y seguro. Aspiramos a ser líderes en la educación vial, promoviendo una cultura de respeto y responsabilidad en las carreteras.
+        
+        <h2>Nuestros Valores</h2>
+        Seguridad: Priorizar la seguridad de todos los usuarios de la vía.
+        
+        Educación: Ofrecer programas educativos de alta calidad basados en las mejores prácticas y estudios actualizados.
+        
+        Responsabilidad: Fomentar el respeto y la responsabilidad entre conductores, peatones y ciclistas.
+        
+        Innovación: Utilizar tecnología y métodos innovadores para mejorar la educación y seguridad vial.
+        
+        <h2>¿Qué Hacemos?</h2>
+        En Rutaconsciente, proporcionamos una amplia gama de servicios educativos, incluyendo:
+        
+        <ul>
+            <li><a >Cursos de conducción segura para nuevos conductores.
+            </a></li>
+            <li><a >Talleres de actualización para conductores experimentados.
+            </a></li>
+            <li><a >Campañas de concientización sobre la seguridad vial en comunidades y escuelas.
+            </a></li>
+            <li><a >Consultoría para empresas en la implementación de políticas de seguridad vial.
+            </a></li>
+        </ul>
+   
+    </p>
+
+    <p>
+        <h4>Participantes</h4>
+
+        <ul>
+            <li><a >Melfreed Miguel Vargas de Jesus
+            </a></li>
+            <li><a >Hillary Batista Moreno
+            </a></li>
+            <li><a >Yamil Rivera
+            </a></li>
+            <li><a >Sebastian Lorenzo de Leon
+            </a></li>
+            <li><a >Justin Bladimir Lorenzo
+            </a></li>
+            <li><a >Dalissa Medina
+            </a></li>
+        </ul>
+    </p>
+</div>
+
+    <!-- Barra de pie de página -->
+    <footer class="footer">
+        <div class="container-center">
+            <p>© Derechos de autor - Rutaconsciente</p>
+        </div>
+    </footer>
+
+    <!-- Archivos JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+

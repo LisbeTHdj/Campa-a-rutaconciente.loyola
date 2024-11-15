@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        /* Personalización del menú de navegación */
+        .navbar {
+            background-color: #BDBDBD !important; /* Color gris del logo */
+        }
+
+        .navbar .navbar-brand {
+            font-weight: bold;
+            color: rgb(255, 255, 255); /* Color blanco para el texto */
+            flex-grow: 1; /* Asegura que el logo no se solape con los enlaces */
+        }
+
+        .navbar .navbar-nav .nav-item .nav-link {
+            color: white !important; /* Color blanco para los enlaces del menú */
+            font-size: 1.1rem; /* Tamaño de fuente de los enlaces */
+        }
+
+        .navbar .navbar-nav .nav-item .nav-link:hover {
+            color: #d1cfe2 !important;
+            text-decoration: underline;
+        }
+
+        .navbar .navbar-toggler-icon {
+            background-color: white; /* Color del icono del menú en dispositivos pequeños */
+        }
+
+        /* Posicionamiento del logo en la barra de navegación */
+        .navbar-logo {
+            height: 40px; /* Ajusta el tamaño del logo */
+            position: absolute;
+            top: 10px; /* Ajusta la distancia desde la parte superior */
+            left: 10px; /* Ajusta la distancia desde la parte izquierda */
+        }
+
+        /* Centrado del texto en el contenedor */
+        .container-center {
+            text-align: center; /* Centra el texto dentro del contenedor */
+        }
+
+        /* Alineación en dispositivos grandes */
+        @media (min-width: 992px) {
+            .navbar .navbar-nav.ml-auto {
+                margin-left: auto; /* Alinea los elementos del menú a la derecha */
+            }
+        }
+
+        /* Cambios en el menú para pantallas pequeñas */
+        @media (max-width: 991px) {
+            .navbar-collapse {
+                background-color: #BDBDBD; /* Color gris para el menú desplegable en pantallas pequeñas */
+            }
+
+            .navbar-nav .nav-item .nav-link {
+                color: white !important; /* Color blanco en los enlaces */
+            }
+        }
+
+          /* Estilo para la barra de pie de página */
+          .footer {
+            background-color: #757575;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+            width: 100%;
+            margin-top: 40px; /* Asegura que haya un espacio entre el contenido y el pie de página */
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Logo en la esquina -->
+        <img src="Imagenes/logo.jpg" alt="Logo" class="navbar-logo">
+        
+        <a class="navbar-brand" href="index.html"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobrenosotros.html">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="informacion.html">Informacion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container mt-5 container-center">
+        <h1>Informacion</h1>
+        <div class="about-us-container">
+            <div class="text">
+
+                <p>En la República Dominicana, los accidentes viales ocurren con frecuencia debido a varios factores. Algunas de las principales causas incluyen:
+
+                   <br> Exceso de velocidad: Muchos conductores no respetan los límites de velocidad, lo que aumenta el riesgo de accidentes.
+                    
+                    <br>Consumo de alcohol: Conducir bajo la influencia del alcohol es una causa común de accidentes fatales.
+                    
+                  <br>  Inobservancia de las leyes de tránsito: No respetar las señales de tránsito, como los semáforos y los límites de velocidad, contribuye a la alta siniestralidad vial.
+                    
+                    <br>Infraestructura vial deficiente: Carreteras en mal estado, falta de señalización adecuada y ausencia de vallas de protección también son factores que incrementan el riesgo de accidentes.</p>
+                <p class="additional-text">En la República Dominicana, el porcentaje de muertes por accidentes viales es alarmantemente alto. 
+                    Según datos recientes, el 42% de las muertes en 2023 fueron causadas por accidentes de tránsito. 
+                    Esto convierte a RD en uno de los países con las tasas más altas de mortalidad por accidentes viales en el mundo por ende en este articulo 
+                les estaremos presentando las formas de evitar los accidentes de transito:</p>
+
+
+                <h4>1. Conocer las reglas de tránsito: </h4>
+                <p>Es esencial que todos los conductores y peatones conozcan y respeten las señales y normas de tráfico.
+                </p>
+            </div>
+            <img src="Imagenes/reglas.jpg" alt="" class="img-fluid">
+
+            <h4>2. Uso del Cinturón de Seguridad:</h4>
+            <p>
+                <br>- Siempre usa el cinturón de seguridad, tanto en asientos delanteros como traseros. Esto puede reducir significativamente el riesgo de lesiones graves o muerte en un accidente</p>
+                <img src="Imagenes/cinturon2.jpg" alt="" class="img-fluid">
+
+
+                <h4>3. No Conducir Bajo los Efectos del Alcohol o Drogas:</h4>
+            <p>
+                - Evitar conducir si has consumido alcohol o drogas. Si vas a beber, planifica un transporte alternativo.</p>
+                <img src="Imagenes/alcohol.jpg" alt="" class="img-fluid">
+
+
+                <h4>4. Mantener la Velocidad Adecuada:</h4>
+            <p>
+                - Respetar los límites de velocidad establecidos y adaptarlos a las condiciones del clima y la carretera. La velocidad excesiva es una de las principales causas de accidentes.</p>
+                <img src="Imagenes/velocidad.jpg" alt="" class="img-fluid">
+
+                <h4>5. Atención y Distracción:</h4>
+                <p>
+- Mantener la atención en la carretera y evitar distracciones como el uso del teléfono móvil mientras conduces. Si necesitas responder a un mensaje o hacer una llamada, detente en un lugar seguro.</p>
+                    <img src="Imagenes/foto5.jpg" alt="" class="img-fluid">  
+
+                    <h4>6. Respeto por los Peatones y Ciclistas</h4>
+                    <p>
+                        - Prestar atención a los peatones, ciclistas y otros usuarios vulnerables de la vía, cediendo el paso donde sea necesario.</p>
+                        <img src="Imagenes/foto6.jpg" alt="" class="img-fluid">  
+        </div>
+
+    
+     
+       
+
+    <!-- Barra de pie de página -->
+    <footer class="footer">
+        <div class="container-center">
+            <p>© Derechos de autor - Rutaconsciente</p>
+        </div>
+    </footer>
+
+    <!-- Archivos JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
